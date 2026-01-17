@@ -2,7 +2,7 @@ FROM node:latest
 
 # 设置各变量
 ARG WSPATH= \
-    UUID=765986c7-d75b-47f8-9376-f98b1ac9ae36 \
+    UUID=0d47465e-fb2a-464f-aa49-c9a2c90b0506 \
     NEZHA_SERVER= \
     NEZHA_PORT= \
     NEZHA_KEY= \
@@ -10,7 +10,7 @@ ARG WSPATH= \
     WEB_DOMAIN=cho.haige.cf \
     ARGO_DOMAIN=cho-ws.haige.cf \
     SSH_DOMAIN=cho-ssh.haige.cf \
-    ARGO_AUTH={"AccountTag":"a44b8b0aa5fc7386b8a99a8ccfaa9ec3","TunnelSecret":"RpKmb8s5hJFEfISNuaW4+9CfbrviupoQaH540ESHuR0=","TunnelID":"a7386ee6-6d75-4bf9-a446-d16852944203"}  \
+    ARGO_AUTH=eyJhIjoiZWU2Y2M3N2E4MGFlMDZkNmRmY2FjMWU1YTFiMWQyMGEiLCJ0IjoiNDY0NWMzYTItMDJjNi00MjJmLWJkODMtZWEyMjJmMjBjYTcxIiwicyI6IlltVTVaVEkwTnpNdFpERTRNQzAwWlRnMkxUaGxZamd0TmpZMU1ERTJNVFpqTVRNMCJ9 \
     WEB_USERNAME=zyh \
     WEB_PASSWORD=z5439888
 
