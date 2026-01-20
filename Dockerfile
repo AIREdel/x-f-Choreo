@@ -1,18 +1,18 @@
 FROM node:latest
 
 # 设置各变量
-ARG WSPATH= \
-    UUID=0d47465e-fb2a-464f-aa49-c9a2c90b0506 \
+ARG WSPATH=choreo \
+    UUID=f457ec9b-6bad-4949-83f9-9f17f4b416cd \
     NEZHA_SERVER= \
     NEZHA_PORT= \
     NEZHA_KEY= \
     NEZHA_TLS= \
-    WEB_DOMAIN=cho.haige.cf \
-    ARGO_DOMAIN=cho-ws.haige.cf \
-    SSH_DOMAIN=cho-ssh.haige.cf \
-    ARGO_AUTH=eyJhIjoiZWU2Y2M3N2E4MGFlMDZkNmRmY2FjMWU1YTFiMWQyMGEiLCJ0IjoiNDY0NWMzYTItMDJjNi00MjJmLWJkODMtZWEyMjJmMjBjYTcxIiwicyI6IlltVTVaVEkwTnpNdFpERTRNQzAwWlRnMkxUaGxZamd0TmpZMU1ERTJNVFpqTVRNMCJ9 \
-    WEB_USERNAME=zyh \
-    WEB_PASSWORD=z5439888
+    WEB_DOMAIN=areiiide.dyeyhffh.dpdns.org  \
+    ARGO_DOMAIN=areiiide-ws.dyeyhffh.dpdns.org  \
+    SSH_DOMAIN=areiiide-ssh.dyeyhffh.dpdns.org  \
+    ARGO_AUTH=eyJhIjoiZWU2Y2M3N2E4MGFlMDZkNmRmY2FjMWU1YTFiMWQyMGEiLCJ0IjoiMjA4NWQxNmYtYmUyMy00MWJmLWIzZjctNjg4ZmM4N2FjMzIzIiwicyI6Ill6aGlZMlU1TmprdFlUTTRZaTAwT1dZNUxXSXdNMk10T1RZME9XWmlOamxtWkRNMyJ9 \
+    WEB_USERNAME=aire \
+    WEB_PASSWORD=g9944883
 
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
